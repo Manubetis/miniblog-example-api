@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var Post = require('../models/Post.js');
+var Post = require('./Post');
 //Para la encriptación del password
 var bcrypt = require('bcryptjs');
 var SALT_WORK_FACTOR = 10;

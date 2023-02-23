@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var User = require('../models/User.js');
+var User = require('./User');
 var PostSchema = new Schema({
 user: {
 type: Schema.ObjectId,
