@@ -40,7 +40,7 @@ router.delete('/:username', function (req, res, next) {
 });
 
 // Validaciones colección User
-routes.post(
+router.post(
   '/user',
   // Username minLength 4 character
   body('username').isLength({

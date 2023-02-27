@@ -30,7 +30,7 @@ router.get('/', function (req, res, next) {
 
 
 // Validaciones colección Post
-routes.post(
+router.post(
     '/post',
     // Username minLength 4 character
     body('user').isLength({

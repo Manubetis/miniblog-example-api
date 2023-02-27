@@ -62,7 +62,7 @@ router.delete('/:nombreUsuario', function (req, res, next) {
 });
 
 // Validaciones colección Comment
-routes.post(
+router.post(
     '/comment',
     // nombreUsuario minLength 4 character
     body('nombreUsuario').isLength({
